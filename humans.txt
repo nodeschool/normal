@@ -1,0 +1,19 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Shawn Esterman -- Creator -- GitHub: shwnstrmn
+
+# THANKS
+
+    HTML5 Boilerplate
+    https://html5boilerplate.com/
+
+    Bootstrap
+    https://getbootstrap.com/
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css

@@ -1,0 +1,25 @@
+{
+  "name": "normal",
+  "description": "Webpage for the NodeSchool Normal, IL chapter.",
+  "main": "index.js",
+  "authors": [
+    "Shawn Esterman"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "node.js",
+    "NodeSchool"
+  ],
+  "moduleType": [],
+  "homepage": "http://nodeschool.io/normal/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#~4.4.0"
+  }
+}

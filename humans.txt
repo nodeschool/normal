@@ -3,11 +3,15 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Shawn Esterman -- Creator -- GitHub: shwnstrmn
 
 # THANKS
 
-    <name>
+    HTML5 Boilerplate
+    https://html5boilerplate.com/
+
+    Bootstrap
+    https://getbootstrap.com/
 
 # TECHNOLOGY COLOPHON
 

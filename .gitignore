@@ -1,1 +1,7 @@
-src/
+
+.sass-cache/
+node_modules/
+bower_components/
+other_components/
+
+npm-debug.log

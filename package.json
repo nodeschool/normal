@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/nodeschool/normal/issues"
   },
-  "homepage": "https://github.com/nodeschool/normal"
+  "homepage": "https://github.com/nodeschool/normal",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-bower": "0.0.11",
+    "gulp-load-plugins": "^1.1.0",
+    "gulp-notify": "^2.2.0",
+    "gulp-ruby-sass": "^2.0.5",
+    "gulp-util": "^3.0.7"
+  }
 }

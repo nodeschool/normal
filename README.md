@@ -11,7 +11,9 @@ If a community member engages in harassing behavior, the organizers of Nodeschoo
 Nodeschool Normal
 
 Organizers: BrainBacon, codysherman
+
 Meetup URL: http://nodeschool.io/normal
+
 If you have questions or feedback about this Code of Conduct please contact one of the organizers.
 
 The organizers of the above communities developed this Code of Conduct to govern their respective events and communication channels. We used PDX Python's anti-harassment policy and the Geek Feminism Conference anti-harassment policy as a starting point. This Code of Conduct, like its inspirations, is licensed under the Creative Commons Zero license.

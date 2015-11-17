@@ -1,2 +1,2 @@
 # Normal
-repo for organizing the Normal nodeschools
+repo for organizing the nodeschools in Normal, Illinois

@@ -1,5 +1,126 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300);
-$font-family-base: 'Source Sans Pro', Helvetica, Arial, sans-serif;
-// Import bootstrap and fontawesome
-@import "bootstrap";
+// Import Source Sans Pro and Source Code Pro
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Source+Code+Pro);
+
+// Begin Bootstrap
+// // Bootstrap Core variables and mixins
+@import "variables";
+@import "mixins";
+
+// // Bootstrap Reset and dependencies
+@import "normalize";
+@import "print";
+
+// // Bootstrap Core CSS
+@import "reboot";
+@import "type";
+@import "images";
+@import "code";
+@import "grid";
+@import "tables";
+@import "forms";
+@import "buttons";
+
+// Start Custom
+header {
+  color: #333;
+  background-image: url('../img/UptownCircle.png');
+  background-size: cover;
+  background-position: center bottom;
+  z-index: -1;
+  display: block;
+  background-blend-mode: multiply;
+
+    .container {
+      padding: 100px 40px;
+
+      @media only screen and (max-width: 1366px) {
+        padding: 20px;
+      }
+    }
+
+    .full {
+      background: rgb(145,195,95); /* for IE */
+      background: rgba(145,195,95,0.75);
+      width: 80%;
+      text-align: center;
+      margin: 0 auto;
+
+      @media only screen and (max-width: 1366px) {
+        width: 80%;
+      }
+
+      p {
+        font-size: 26px;
+
+        @media only screen and (max-width: 1366px) {
+          font-size: 16px;
+        }
+      }
+    }
+
+    img {
+      width: 400px;
+      padding-right: 60px;
+      position: relative;
+      display: block;
+      margin: 0 auto;
+      padding-right: 20px;
+
+      @media only screen and (max-width: 1366px) {
+        height: 75px;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+    h1 {
+      text-transform: uppercase;
+      font-size: 500%;
+      font-weight: 900;
+      margin-bottom: 0px;
+      margin-top: 20px;
+      line-height: 1;
+
+        @media only screen and (max-width: 1366px) {
+          font-size: 2.0em;
+          margin-top: 0;
+        }
+    }
+
+    .subtitle {
+      margin-bottom: 20px;
+      letter-spacing: .05em;
+
+      @media only screen and (max-width: 1366px) {
+          margin: 0 auto 20px;
+          width: 75%;
+      }
+    }
+
+    p {
+      font-size: 1.5em;
+      font-weight: 500;
+      margin: 10px 0 0 0;
+    }
+
+}
+
+// Import rest of bootstrap and fontawesome
+// // Bootstrap Components
+@import "input-group";
+@import "custom-forms";
+@import "card";
+@import "labels";
+@import "media";
+@import "responsive-embed";
+
+// // Bootstrap Utility classes
+@import "utilities";
+@import "utilities-spacing";
+@import "utilities-responsive";
+
+// // Fontawesome
 @import "font-awesome";

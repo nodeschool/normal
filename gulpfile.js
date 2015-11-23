@@ -1,15 +1,34 @@
 var gulp = require('gulp'), 
-    gp = require('gulp-load-plugins')({
-      rename: {
-        'gulp-ruby-sass': 'sass'
-      }
-    });
+      gp = require('gulp-load-plugins')({
+             rename: {
+               'gulp-ruby-sass': 'sass'
+             }
+           });
 
 var config = {
      sassPath: './sass',
      bowerDir: './bower_components' ,
     otherDir: './other_components'
 }
+
+gulp.task('connect', function() {
+	gp.connect.server({
+		root: [
+			'./'
+		],
+		livereload: true
+	});
+});
+
+gulp.task('reload', function () {
+  gulp.src(['./*.html','./img/*'])
+    .pipe(gp.connect.reload());
+});
+
+gulp.task('watch', function() {
+     gulp.watch(config.sassPath + '/**/*.scss', ['css','reload']); 
+     gulp.watch(['./index.html'], ['reload']); 
+});
 
 gulp.task('bower', function() { 
     return gp.bower()
@@ -34,9 +53,5 @@ gulp.task('css', function() { 
     .pipe(gulp.dest('./css'));
 });
 
-// Rerun the task when a file changes
- gulp.task('watch', function() {
-     gulp.watch(config.sassPath + '/**/*.scss', ['css']); 
-});
-
   gulp.task('default', ['bower', 'icons', 'css']);
+  gulp.task('serve', ['connect', 'watch']);

@@ -20,7 +20,187 @@
 @import "forms";
 @import "buttons";
 
-// Start Custom
+body {
+  color: #fff;
+  background: url('../img/UptownCircle.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	z-index: -9000;
+
+  &:before {
+    content: '';
+    background-color: rgba(0,0,0,0.75);
+	  position: absolute;
+	  top: 0;
+	  width: 100%;
+	  height: 100%;
+	  margin: 0;
+	  padding: 0;
+	  z-index: -8000;
+  }
+}
+
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+  -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+          box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+main {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Padding for spacing */
+header,
+footer {
+  padding: 30px;
+}
+
+
+/*
+ * Header
+ */
+.header-logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.logo {
+  max-height: 50px;
+  width: auto;
+}
+
+.header-nav > li {
+  display: inline-block;
+}
+.header-nav > li + li {
+  margin-left: 20px;
+}
+.header-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.header-nav > li > a:hover,
+.header-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.header-nav > .active > a,
+.header-nav > .active > a:hover,
+.header-nav > .active > a:focus {
+  color: #fff;
+  border-bottom-color: #fff;
+}
+
+@media (min-width: 768px) {
+  .header-logo {
+    float: left;
+  }
+  .nav {
+    float: right;
+  }
+}
+
+.cover {
+  padding: 0 20px;
+}
+
+main {
+  text-align: center;
+
+  .name {
+    text-transform: uppercase;
+    font-size: 500%;
+    font-weight: 900;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    line-height: 1;
+  }
+}
+
+footer {
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+}
+.footer-location {
+  float: left;
+}
+.footer-github {
+  float: right;
+}
+
+@media (min-width: 768px) {
+  /* Pull out the header and footer */
+  header {
+    position: fixed;
+    top: 0;
+  }
+  footer {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  header,
+  footer,
+  main {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}
+
+@media (min-width: 992px) {
+  main {
+    width: 800px;
+  }
+}
+
+
+/*Start Custom
 header {
   color: #333;
   background-image: url('../img/UptownCircle.png');
@@ -39,7 +219,7 @@ header {
     }
 
     .full {
-      background: rgb(145,195,95); /* for IE */
+      background: rgb(145,195,95);
       background: rgba(145,195,95,0.75);
       width: 80%;
       text-align: center;
@@ -107,6 +287,7 @@ header {
     }
 
 }
+*/
 
 // Import rest of bootstrap and fontawesome
 // // Bootstrap Components

@@ -1,6 +1,23 @@
 # Normal
 NodeSchool in Normal, Illinois
 
+##Requirements
+ - sign up for [github](https://github.com)
+ - install [sublime](http://www.sublimetext.com/), or other text editor
+ - (optional) [set up ssh key](https://help.github.com/articles/generating-ssh-keys/)
+   - [explanation](https://youtu.be/U62S8SchxX4)
+
+##Setup & Installation
+###Mac Installation (OSX 10.10, 10.11)
+ 1. [iterm](https://www.iterm2.com/)
+ 2. [Brew](http://brew.sh/) in iTerm
+ 3. [Node.js](https://nodejs.org/en/) via `brew install node` in iTerm
+ 4. [Git](https://git-scm.com/) via `brew install git` in iTerm
+
+###Windows Installation (7, 8, 10)
+ 1. [Node.js](https://nodejs.org/en/)
+ 2. [Git](https://git-scm.com/)
+
 ## Code of Conduct
 We, the organizers of Nodeschool Normal, are dedicated to providing a harassment-free community for everyone, regardless of sex, gender identity or expression, sexual orientation, disability, physical appearance, age, body size, race, nationality, or religious beliefs. We do not tolerate harassment of community members in any form. Participants violating these rules may be sanctioned or expelled from the community at the discretion of the organizers of Nodeschool Normal.
 

@@ -7,8 +7,7 @@ var gulp = require('gulp'), 
 
 var config = {
      sassPath: './sass',
-     bowerDir: './bower_components' ,
-    otherDir: './other_components'
+     otherDir: './other_components'
 }
 
 gulp.task('connect', function() {
@@ -30,16 +29,6 @@ gulp.task('watch', function() {
      gulp.watch(['./index.html'], ['reload']); 
 });
 
-gulp.task('bower', function() { 
-    return gp.bower()
-         .pipe(gulp.dest(config.bowerDir)) 
-});
-
-gulp.task('icons', function() { 
-    return gulp.src(config.bowerDir + '/font-awesome/fonts/**.*') 
-        .pipe(gulp.dest('./fonts')); 
-});
-
 gulp.task('css', function() { 
   return gp.sass('./sass/style.scss', {
              style: 'compressed',
@@ -53,5 +42,5 @@ gulp.task('css', function() { 
     .pipe(gulp.dest('./css'));
 });
 
-  gulp.task('default', ['bower', 'icons', 'css']);
+  gulp.task('default', ['css']);
   gulp.task('serve', ['connect', 'watch']);

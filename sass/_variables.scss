@@ -26,13 +26,13 @@
 //
 // Grayscale and brand colors for use across Bootstrap.
 
-$gray-dark:                 #373a3c !default;
-$gray:                      #55595c !default;
-$gray-light:                #818a91 !default;
-$gray-lighter:              #eceeef !default;
-$gray-lightest:             #f7f7f9 !default;
+$gray-dark:                 #222 !default;
+$gray:                      #333 !default;
+$gray-light:                #555 !default;
+$gray-lighter:              #777 !default;
+$gray-lightest:             #eee !default;
 
-$brand-primary:             #0275d8 !default;
+$brand-primary:             #f7da03 !default;
 $brand-success:             #5cb85c !default;
 $brand-info:                #5bc0de !default;
 $brand-warning:             #f0ad4e !default;
@@ -152,11 +152,11 @@ $display2-weight:             300 !default;
 $display3-weight:             300 !default;
 $display4-weight:             300 !default;
 
-$line-height:                1.4 !default;
+$line-height:                1.5 !default;
 
 $headings-margin-bottom:     ($spacer / 2) !default;
-$headings-font-family:       inherit !default;
-$headings-font-weight:       500 !default;
+$headings-font-family:       "Oswald", "Helvetica Neue", Helvetica, Arial, sans-serif !default;
+$headings-font-weight:       400 !default;
 $headings-line-height:       1.1 !default;
 $headings-color:             inherit !default;
 

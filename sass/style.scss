@@ -206,6 +206,10 @@ header {
     justify-content: center;
     padding: 0;
 
+    @include media-breakpoint-up(md) {
+      margin-right: 1rem;
+    }
+
     li {
       margin: 0rem 0.25rem 0.5rem;
       line-height: 1;
@@ -319,6 +323,8 @@ header {
   .info-wrapper {
     flex: 0 0 100%;
     padding-bottom: 1rem;
+    align-self: center;
+
     @include media-breakpoint-up(md) {
       flex: 0 0 58.33333%;
       padding-bottom: 0;
@@ -353,8 +359,7 @@ header {
     flex: 0 0 100%;
 
     position: relative;
-    padding-bottom: 35.25%;
-    padding-top: 30px;
+    padding-bottom: 39.25%;
     height: 0;
     overflow: hidden;
 
@@ -364,7 +369,9 @@ header {
       position: absolute;
       top: 0;
       left: 0;
-      width: 100%;
+      width: 1px;
+      min-width: 100%;
+      *width: 100%;
       height: 100%;
     }
 

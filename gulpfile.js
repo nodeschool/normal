@@ -15,7 +15,8 @@ gulp.task('connect', function() {
 		root: [
 			'./'
 		],
-		livereload: true
+		livereload: true,
+    host: '0.0.0.0'
 	});
 });
 

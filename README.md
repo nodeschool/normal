@@ -2,9 +2,9 @@
 NodeSchool in Normal, Illinois
 
 ##Requirements
- - sign up for [github](https://github.com)
- - install [sublime](http://www.sublimetext.com/), or other text editor
- - (optional) [set up ssh key](https://help.github.com/articles/generating-ssh-keys/)
+ - Sign up for [GitHub](https://github.com)
+ - Install [Atom](https://atom.io/), or other text editor
+ - (Optional) [Set up SSH key](https://help.github.com/articles/generating-ssh-keys/)
    - [explanation](https://youtu.be/U62S8SchxX4)
 
 ##Setup & Installation

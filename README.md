@@ -27,7 +27,7 @@ If a community member engages in harassing behavior, the organizers of Nodeschoo
 
 Nodeschool Normal
 
-Organizers: Brian Jesse (BrainBacon), Cody Sherman (codysherman), Shawn Esterman (shwnstrmn)
+Organizers: Brian Jesse (BrainBacon), Cody Sherman (codysherman), Shawn Esterman (shawnesterman)
 
 Meetup URL: http://nodeschool.io/normal
 

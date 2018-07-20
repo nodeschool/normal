@@ -1,10 +1,6 @@
 # humanstxt.org/
 # The humans responsible & technology colophon
 
-# TEAM
-
-    Shawn Esterman -- Creator -- GitHub: shwnstrmn
-
 # THANKS
 
     HTML5 Boilerplate
